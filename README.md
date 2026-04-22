@@ -51,9 +51,5 @@ The uploaded project notes also describe work on mounting the Jetson board onto 
 - pygame for controller-side experimentation
 - pyagxrobots repository / AgileX-related Python integration tools
 
-The project notes explicitly mention ROS Noetic, Python scripts, shell scripts, CAN utilities, and testing with pygame for Xbox controller input. :contentReference[oaicite:6]{index=6} :contentReference[oaicite:7]{index=7}
+The project notes explicitly mention ROS Noetic, Python scripts, shell scripts, CAN utilities, and testing with pygame for Xbox controller input.
 
-
-│   └── weekly_updates.md
-└── assets/
-    └── architecture_diagram.png
