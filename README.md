@@ -3,7 +3,7 @@
 ## Overview
 This project focuses on enabling remote control of the AgileX Scout Mini robotic platform using an Xbox controller. The system bridges communication between the joystick and the Scout Mini through an NVIDIA Jetson Xavier NX, with ROS nodes managing communication and command flow.
 
-The core objective of the project was to establish end-to-end control from the Xbox controller to the AgileX platform, including hardware setup, CAN communication, ROS node deployment, and auto-boot execution on the Jetson board. At the current stage documented in this project, the platform supports linear motion control. :contentReference[oaicite:2]{index=2}
+The core objective of the project was to establish end-to-end control from the Xbox controller to the AgileX platform, including hardware setup, CAN communication, ROS node deployment, and auto-boot execution on the Jetson board. At the current stage documented in this project, the platform supports linear motion control. 
 
 ## Project Goals
 - Connect the AgileX Scout Mini with an Xbox controller
@@ -22,7 +22,7 @@ The system consists of the following major components:
 - **ROS nodes for joystick and robot command handling**
 - **Boot-time shell scripts for automated startup**
 
-In this setup, the Xbox controller sends user inputs to the Jetson Xavier NX, which processes these commands and forwards motion instructions to the AgileX Scout Mini over the CAN interface. :contentReference[oaicite:3]{index=3}
+In this setup, the Xbox controller sends user inputs to the Jetson Xavier NX, which processes these commands and forwards motion instructions to the AgileX Scout Mini over the CAN interface. 
 
 ## Features
 - Xbox-controller-based remote operation
